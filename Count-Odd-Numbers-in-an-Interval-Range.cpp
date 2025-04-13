@@ -8,6 +8,6 @@ public:
         //     }
         // }
         // return count;
-        return (1+high)/2-low/2;
+        return (1+high)/2 - low/2;
     }
 };
