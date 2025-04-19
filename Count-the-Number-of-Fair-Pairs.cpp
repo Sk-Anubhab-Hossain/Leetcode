@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long countFairPairs(vector<int>& nums, int lower, int upper) {
-        sort(nums.begin(), nums.end());
+    sort(nums.begin(), nums.end());
     long long count = 0;
     int n = nums.size();
 
